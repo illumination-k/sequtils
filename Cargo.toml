@@ -1,0 +1,17 @@
+[package]
+name = "sequtils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.56"
+flate2 = "1.0.22"
+regex = "1.5.5"
+serde = "1.0.136"
+structopt = "0.3.26"
+thiserror = "1.0.30"
+
+[dev-dependencies]
+tempfile = "3.3.0"
